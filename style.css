@@ -1,0 +1,18 @@
+#container{
+    width: 800px;
+    height: 800px;
+    border-radius: 100%;
+    border: 5px solid #000;
+}
+#gameArea {
+    position: relative;
+    width: 800px;
+}
+
+#gameArea .box1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    transition: 0.05s ease-in-out;
+}
